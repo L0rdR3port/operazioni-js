@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <title>java</title>
+    </head>
+
+    <body>
+
+        <h1>Clicca il pulsante</h1>
+
+        <button type="button" onclick="button()">clicca per visionare le operazioni</button>
+
+        <script>
+            function button(){
+                let a = parseInt(prompt("Inserisci il primo numero: "))
+                let b = parseInt(prompt("Inserisci il secondo numero: "))
+                let somma = a+b
+                let sottrazione = a-b
+                let moltiplicazione = a*b
+                let divisione = a/b
+
+
+                console.log(`${a} + ${b} = ${somma}`)
+                console.log(`${a} - ${b} = ${sottrazione}`)
+                console.log(`${a} * ${b} = ${moltiplicazione}`)
+                console.log(`${a} / ${b} = ${divisione}`)
+            }
+        </script>
+
+    </body>
+
+</html>
